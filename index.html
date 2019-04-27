@@ -43,7 +43,10 @@
     <link type="text/css" rel="stylesheet" href="/assets/3.3/plp.css"></link>
     <link type="text/css" rel="stylesheet" href="/assets/3.3/nodes.css"></link>
     <link type="text/css" rel="stylesheet" href="/assets/3.3/swiper.css"></link>
-    <link type="text/css" rel="stylesheet" href="form.css"></link>
+    <link type="text/css" rel="stylesheet" href="/css/form.css"></link>
+    <link type="text/css" rel="stylesheet" href="/css/cbk.css"></link>
+    <link type="text/css" rel="stylesheet" href="/css/callback.css"></link>
+    <link type="text/css" rel="stylesheet" href="/css/libs.css"></link>
   </head>
 
   <body class="area ">
@@ -5331,10 +5334,8 @@
                             <div class="wrapper2">
                               <div class="">
                                 <div class="xs-force-center textable">
-                                  <p><span style="font-family: &quot;Open Sans&quot;;">ИП Дмитриев Владимир Владимирович</span></p>
-                                  <p>ИНН: 01050612963</p>
-                                  <p>ОГРНИП: 304010501600207</p>
-                                  <p>г. Краснодар, ул. Уральская, д.228</p>
+                                  <p><a href="mailto:2402404@bk.ru">2402404@bk.ru</a></p>
+                                  <p>г. Воронеж, ул. Землячки, д.1а</p>
                                 </div>
                               </div>
                             </div>
@@ -5358,7 +5359,7 @@
                         <div class="node node337 widget widget-image">
                           <div class="wrapper1">
                             <div class="wrapper2">
-                              <div class="xs-force-center bgnormal" style="text-align: center;"><a class="fancybox" href="/img/wsp24-logo.png" data-group=""><img class="" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAADCAYAAACasY9UAAAAEklEQVQYV2NkoBAwUqifgWIDAAJJAATwXgcuAAAAAElFTkSuQmCC" style="width: 126.88px;" data-lazy-image="/img/wsp24-logo.png" data-lazy-image_size="488,100" data-lazy-image_detect="css-width"></a></div><noscript><img src="/img/wsp24-logo.png" alt=""></noscript>
+                              <div class="xs-force-center bgnormal" style="text-align: center;"><a class="fancybox" href="https://wsp24.ru" data-group=""><img class="" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAADCAYAAACasY9UAAAAEklEQVQYV2NkoBAwUqifgWIDAAJJAATwXgcuAAAAAElFTkSuQmCC" style="width: 126.88px;" data-lazy-image="/img/wsp24-logo.png" data-lazy-image_size="488,100" data-lazy-image_detect="css-width"></a></div><noscript><img src="/img/wsp24-logo.png" alt=""></noscript>
                             </div>
                           </div>
                         </div>
@@ -5599,6 +5600,41 @@
 <script type="text/javascript" src="/assets/3.3/plp.js"></script>
 <script type="text/javascript" src="/assets/3.3/nodes.js"></script>
 <script type="text/javascript" src="/assets/3.3/swiper.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+<script type="text/javascript" src="/js/libs.min.js"></script>
+<script type="text/javascript" src="/js/lazysizes.min.js"></script>
+<a class="callbackkiller cbk-phone cbk-phone-sm cbk-phone-waves footer__callback-btn" href="javascript:void(0)">
+  <div class="cbk-phone-bgr"></div>
+  <div class="cbk-phone-content">
+    <div class="cbk-phone-phone cbk-rotate-icon"><i class="ws-icon-phone"></i></div>
+    <div class="cbk-phone-text" style="margin-top: 27px;"><span class="cbk-font-size-90">Закажите звонок</span></div>
+  </div>
+  <div class="cbk-phone-circle"></div>
+  <div class="cbk-phone-second_circle"></div>
+  <div class="cbk-phone-third_circle"></div>
+</a>
+<div class="arcticmodal-overlay" style="display:none; background-color: rgb(0, 0, 0); opacity: 0.6;"></div>
+<div class="arcticmodal-container" style="display:none; "><table class="arcticmodal-container_i"><tbody><tr><td class="arcticmodal-container_i2"><div id="callback-modal">
+  <div class="wait-modal">
+    <div class="arcticmodal-close box-modal_close">
+      <svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="https://www.w3.org/2000/svg">
+        <path d="M18.624 15.0008L30.4213 3.20357C31.1542 2.47124 31.1542 1.28301 30.4213 0.550689C29.6883 -0.182261 28.5013 -0.182261 27.7684 0.550689L15.9712 12.3479L4.17329 0.550689C3.44034 -0.182261 2.25336 -0.182261 1.52042 0.550689C0.787466 1.28301 0.787466 2.47124 1.52042 3.20357L13.3183 15.0008L1.52042 26.798C0.787466 27.5304 0.787466 28.7186 1.52042 29.4509C1.88689 29.8168 2.36718 30 2.84685 30C3.32652 30 3.80682 29.8168 4.17329 29.4503L15.9712 17.6531L27.7684 29.4503C28.1349 29.8168 28.6152 30 29.0948 30C29.5745 30 30.0548 29.8168 30.4213 29.4503C31.1542 28.718 31.1542 27.5297 30.4213 26.7974L18.624 15.0008Z" fill="#D5D5D5"></path>
+      </svg>
+    </div>
+    <div class="wait-modal__right">
+      <div class="wait-modal__h2">Заказать обратный звонок</div>
+      <div class="wait-modal__p">Наши менеджеры перезвонят вам в ближайшее время</div>
+      <form class="wait-modal__form form__callback">
+        <input type="tel" name="tel" class="wait-modal__input-tel" placeholder="+7" required="" maxlength="18">
+        <input type="hidden" name="type_form" value="Форма 'Заказать обратный звонок' ">
+        <button type="submit" class="wait-modal__submit">
+          <span class="wait-modal__submit-wrap">Перезвоните мне</span>
+          <span class="wait-modal__submit-hover"></span>
+        </button>
+        <input type="hidden" name="client_city" class="client_city_input" value="Воронеж"></form>
+      </div>
+    </div>
+  </div></td></tr></tbody></table></div>
 </body>
 
 </html>

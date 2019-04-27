@@ -1,0 +1,82 @@
+.callbackkiller.cbk-phone.cbk-phone-pulse .cbk-phone-circle{background-color: rgba(156,255,154,1)!important;}.callbackkiller.cbk-phone.cbk-phone-wild .cbk-phone-circle{background-color: rgba(156,255,154,1)!important;}.callbackkiller.cbk-phone.cbk-phone-waves .cbk-phone-circle{background-color: rgba(156,255,154,1)!important;}.callbackkiller.cbk-phone.cbk-phone-waves .cbk-phone-second_circle, .callbackkiller.cbk-phone.cbk-phone-waves .cbk-phone-third_circle{border: 1px solid rgba(156,255,154,1)!important;}.ws-killer .ws-killer-btn{background-color: rgba(0,167,62,1)!important;} .ws-killer .ws-killer-btn .ws-icon-phone{color: rgba(0,167,62,1)!important;} .cbk-btn, .cbk-btn:hover {background-color: rgba(0,167,62,1)!important;} .cbk-phone .cbk-phone-bgr {background-color: rgba(0,167,62,1)!important;}.ws-killer .ws-btn-title {color: rgba(255, 255, 255, 1)!important} .cbk-btn .cbk-title, .cbk-btn:hover .cbk-title {color: rgba(255, 255, 255, 1)!important;} .cbk-phone .cbk-phone-phone .ws-icon-phone, .cbk-phone .cbk-phone-text, .cbk-phone .cbk-phone-text span, .cbk-phone .cbk-phone-phone.cbk-phone-with-text, .cbk-phone .cbk-phone-phone.cbk-phone-with-text span{color: rgba(255, 255, 255, 1)!important;}.cbk-window.cbk-background {background-color: rgba(255,255,255,0.95)!important;}.cbk-window.callbackkiller-mobile.cbk-background {background-color: rgba(255,255,255,0.95)!important;}.cbk-window * {color: rgba(51, 51, 51, 1)!important}.cbk-window a, .cbk-window a:hover, .cbk-window a.cbk-button-no.cbk-button-no-dark {color: rgba(51, 51, 51, 1)!important;}.cbk-window a.cbk-button-no.cbk-button-no-dark, .cbk-window a.cbk-button-no.cbk-button-no-dark:hover {color: rgba(51, 51, 51, 1)!important;border-bottom: 1px dashed rgba(51, 51, 51, 1)!important}.cbk-window .cbk-form .cbk-input, .cbk-window .cbk-form .cbk-input:focus, .cbk-window .cbk-form .cbk-input:hover, .cbk-window .cbk-form .cbk-select, .cbk-window .cbk-form .cbk-select option {background: rgba(208, 208, 208, 1)!important;}.cbk-window .cbk-form .cbk-input, .cbk-window .cbk-form .cbk-input:focus, .cbk-window .cbk-form .cbk-input:hover, .cbk-window .cbk-form .cbk-select, .cbk-window .cbk-form .cbk-select option {color: rgba(51, 51, 51, 1)!important;}@font-face{font-family: 'whitesaas';src: url('https://cdn.saas-support.com/widget/fonts/whitesaas.eot?11');src: url('https://cdn.saas-support.com/widget/fonts/whitesaas.eot?11#iefix') format('embedded-opentype'),url('https://cdn.saas-support.com/widget/fonts/whitesaas.woff2?11') format('woff2'),url('https://cdn.saas-support.com/widget/fonts/whitesaas.woff?11') format('woff'),url('https://cdn.saas-support.com/widget/fonts/whitesaas.ttf?11') format('truetype'),url('https://cdn.saas-support.com/widget/fonts/whitesaas.svg?11#font3435') format('svg');font-weight: normal;font-style: normal;}.ws-quiz-container .ws-quiz-btn-container{background: rgba(255,92,0,1)!important;}.ws-quiz-container .ws-quiz-btn-container .ws-btn-title{color: rgba(255,255,255,1)!important;}
+#callback-modal {
+	text-align: center;
+}
+#callback-modal .wait-modal {
+	width: 450px;
+	min-height: 450px;
+}
+#callback-modal .wait-modal .box-modal_close {
+	top: 25px;
+	right: 28px;
+}
+.wait-modal .box-modal_close {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 40px;
+	right: 40px;
+	cursor: pointer;
+}
+#callback-modal .wait-modal__right {
+	padding: 70px 50px;
+	min-width: 400px;
+}
+#callback-modal .wait-modal__h2 {
+	font-size: 38px;
+}
+.wait-modal__h2 {
+	line-height: 41px;
+	font-size: 35px;
+	margin-bottom: 10px;
+}
+.wait-modal__p {
+	line-height: 22px;
+	font-size: 16px;
+	color: #717171;
+}
+.wait-modal__p {
+	margin-bottom: 80px;
+	margin-top: 20px;
+}
+.wait-modal__input-tel {
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	padding: 0 23px;
+	background: #FFFFFF;
+	border: 1px solid #E4E4E4;
+	box-sizing: border-box;
+	border-radius: 15px;
+	font-size: 16px;
+	color: #999999;
+	display: block;
+	margin-top: 25px;
+	margin-bottom: 18px;
+}
+.wait-modal__submit {
+	width: 100%;
+	height: 64px;
+	position: relative;
+	cursor: pointer;
+	border: none;
+	background: linear-gradient(74.52deg, rgba(255, 107, 0, 0.2) 1.88%, rgba(255, 255, 255, 0) 94.27%), linear-gradient(234.47deg, #FF6B00 2.46%, #FFD600 85.03%);
+	box-shadow: 0px 15px 25px rgba(255, 125, 11, 0.4), 0px 4px 0px #F7720F, inset 0px -1px 0px rgba(255, 255, 255, 0.1);
+	border-radius: 19px;
+	transition: all .15s;
+}
+.wait-modal {
+	width: 1095px;
+	min-height: 580px;
+	border-radius: 20px;
+	margin: 30px auto;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	background-color: #fff;
+	position: relative;
+	font-family: "RobotoBold", sans-serif;
+}
+body {
+	margin-right: 0 !important;
+}
