@@ -205,3 +205,56 @@ input[type=checkbox], input[type=radio] {
 	margin-top:20px !important;
 	margin-bottom: 20px !important;
 }
+.modal_not_check p {
+    text-align: center;
+    font-size: 28x;
+    font-family: "RobotoBold", sans-serif;
+    margin-bottom: 0;
+}
+.modal_not_check .box-modal_close {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+}
+.modal_not_check {
+    position: relative;
+    border-radius: 20px;
+    background-color: #f5f5f5;
+    width: 650px;
+    max-width: 95vw;
+    padding: 80px 20px;
+}
+.arcticmodal-container_i2 {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    vertical-align: middle;
+}
+.arcticmodal-container_i {
+    margin: 0 auto;
+    height: 100%;
+}
+table {
+    border-collapse: collapse;
+}
+.arcticmodal-container {
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-collapse: collapse;
+}
+.arcticmodal-container, .arcticmodal-overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+}
+.hidden-block {
+	display: none;
+}
